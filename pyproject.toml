@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "llm101"
+version = "0.1.0"
+description = "Beginner building first LLM app"
+authors = ["bpugnaire"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+huggingface-hub = "^0.18.0"
+langchain = {extras = ["llms"], version = "^0.0.315"}
+chainlit = "^0.7.3"
+openai = "^0.28.1"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
+llama-index = "^0.8.45.post1"
+llama-cpp-python = "^0.2.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
