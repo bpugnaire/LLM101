@@ -1,6 +1,4 @@
 import chainlit as cl
-from langchain.prompts import PromptTemplate
-from langchain.llms import OpenAI
 from dotenv import load_dotenv
 import os
 from dialog_chain import ask_gigi
@@ -9,16 +7,6 @@ load_dotenv()
 
 OPENAI_MODEL = 'gpt-3.5-turbo'
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-
-llm = OpenAI(temperature=0, streaming=True)
-prompt_template = PromptTemplate.from_template(
-    "Answer the question: {question}"
-)
-
-def ask_llm(question):
-    prompt = prompt_template.format(question=question)
-    response = llm.predict(prompt)
-    return response
 
 # @cl.on_message
 # async def main(message: cl.Message):
