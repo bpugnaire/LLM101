@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1714992499061
+current_stage: None
+description: ''
+last_updated_timestamp: 1714992499061
+name: tracking-quickstart
+run_id: 3917345073a84e288280c742475bc6f5
+run_link: ''
+source: mlflow-artifacts:/129880764550986993/3917345073a84e288280c742475bc6f5/artifacts/breast_cancer_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/129880764550986993/3917345073a84e288280c742475bc6f5/artifacts/breast_cancer_model
+user_id: null
+version: 2

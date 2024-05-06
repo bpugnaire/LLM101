@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/129880764550986993/bec972d77e7941b3b364aa35ebe3dccf/artifacts
+end_time: 1714991549196
+entry_point_name: ''
+experiment_id: '129880764550986993'
+lifecycle_stage: active
+run_id: bec972d77e7941b3b364aa35ebe3dccf
+run_name: omniscient-newt-490
+run_uuid: bec972d77e7941b3b364aa35ebe3dccf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714991546663
+status: 3
+tags: []
+user_id: baptistepugnaire
